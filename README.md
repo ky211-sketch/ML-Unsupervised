@@ -33,9 +33,20 @@ Quantity:	Number of purchased items
 InvoiceDate:	Purchase date and time
 UnitPrice:	Product price
 CustomerID:	Customer identifier
-Country:	Customer country
+Country:	Customer country  
+
+# Data : 
+data file contains as csv files :    
+original dataset: online_retail_original.csv   
+cleaned_data: online_retail_cleaned.csv   
+customer_segmentation.csv  
+strongest_rules.csv   
 
 # Techniques Used:  
+- Libraries used : 'requirements.txt'  
+
+- Models, mothos and algorithms :  
+
 - Data exploratation and cleaning :  
 Handle missing values
 Remove duplicate records
@@ -58,15 +69,14 @@ Define customer personas, using "name" labels:
 Apply PCA to reduce your customer features into 2 dimensions.  
 Visualize customer segments. 
 
-
-# Market Basket Analysis :
+- Market Basket Analysis :
 Create a basket 
 Apply Apriori algorithm  
 Generate association rules  
 Evaluate usng support, confidence   
 Display strongest associations(frequent products together).  
 
-# Recommendation : 
+- Recommendation : 
 Using assocaition rules, and customer history(antrcedents elements) recommend top 10 of suitable products.  
 
 # Main findings :
